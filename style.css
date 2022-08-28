@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Basic&family=Satisfy&display=swap");
+
+body {
+  font-family: "Basic", sans-serif;
+  font-family: "Satisfy", cursive;
+  background-color: darkturquoise;
+}
+
+header {
+  margin: 0.5rem;
+}
+
+h1 {
+  text-align: center;
+}
+textarea {
+  display: block;
+  font-family: "Satisfy", cursive;
+  font-size: larger;
+  padding: 2rem 2rem;
+  margin: 0rem 30rem;
+  width: 500px;
+  height: 20vh;
+}
+button {
+  margin: 3rem 41rem;
+  border: 1px solid black;
+  padding: 1rem;
+  background-color: darkturquoise;
+  font-family: "Satisfy", cursive;
+}
+
+button:hover {
+  background-color: black;
+  color: darkturquoise;
+}
+
+div {
+  text-align: center;
+}
