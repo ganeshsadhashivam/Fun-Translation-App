@@ -4,6 +4,10 @@ body {
   font-family: "Basic", sans-serif;
   font-family: "Satisfy", cursive;
   background-color: darkturquoise;
+  display: grid;
+    place-content: center;
+    padding: 1rem;
+    row-gap: 0.8rem;
 }
 
 header {

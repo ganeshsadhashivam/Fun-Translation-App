@@ -25,12 +25,14 @@ function getTranslatedURL(text){
 
 function clickEventHandler(){
 
+    
+
     var input = userInput.value;
 
     fetch(getTranslatedURL(input)).then(response => response.json()).then(json => {
 
         var translatedText = json.contents.translated;
-
+       
         output = translatedText;
         
     }).catch(errorHandler);
