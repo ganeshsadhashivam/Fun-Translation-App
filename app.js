@@ -8,10 +8,10 @@ var output = document.getElementById("output-text");
 
 
 
-var serverURL = "https://api.funtranslations.com/translate/groot.json";
+var serverURL = "https://api.funtranslations.com/translate/sindarin.json";
 
 function errorHandler(error){
-    console.log("error ocurred",error);
+   // console.log("error ocurred",error);
     alert("Something wrong with server try again after sometime");
 }
 
